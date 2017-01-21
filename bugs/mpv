@@ -35,4 +35,6 @@ dyld: Symbol not found: _x265_api_get_95
 Couldn't find any options at /private/tmp/mpv-20170118-18128-1lsf3h9/mpv-0.23.0/TOOLS/zsh.pl line 13.
 
 Error: mpv 0.23.0 did not build
+...
+TL;DR: Slykludge didn't fix it. Apparently needs libx265 v95, and libass v9?
 -----------------------
