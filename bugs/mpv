@@ -1,7 +1,5 @@
------------------------
-20170120
------------------------
-% brew install --with-vapoursynth --with-libarchive --with-bundle --with-libbluray --with-libdvdnav --with-libdvd-read --with-uchardet mpv
+% brew install --with-vapoursynth --with-libarchive --with-bundle --with-libbluray \
+--with-libdvdnav --with-libdvd-read --with-uchardet mpv
 ...
 dyld: Library not loaded: /usr/local/opt/x265/lib/libx265.95.dylib
   Referenced from: /usr/local/opt/ffmpeg/lib/libswresample.2.dylib
@@ -11,7 +9,8 @@ dyld: Library not loaded: /usr/local/opt/x265/lib/libx265.95.dylib
 ...
 [libx265 v.102 is the only one present, so...]
 % ln -s /usr/local/opt/x265/lib/libx265.102.dylib /usr/local/opt/x265/lib/libx265.95.dylib
-% brew install --with-vapoursynth --with-libarchive --with-bundle --with-libbluray --with-libdvdnav --with-libdvd-read --with-uchardet mpv
+% brew install --with-vapoursynth --with-libarchive --with-bundle --with-libbluray \
+--with-libdvdnav --with-libdvd-read --with-uchardet mpv
 ...
 dyld: Library not loaded: /usr/local/opt/libass/lib/libass.5.dylib
   Referenced from: /usr/local/opt/ffmpeg/lib/libavdevice.57.dylib
@@ -20,7 +19,8 @@ dyld: Library not loaded: /usr/local/opt/libass/lib/libass.5.dylib
 [Raise]
 ...
 % ln -s /usr/local/opt/libass/lib/libass.9.dylib /usr/local/opt/libass/lib/libass.5.dylib
-% brew install --with-vapoursynth --with-libarchive --with-bundle --with-libbluray --with-libdvdnav --with-libdvd-read --with-uchardet mpv
+% brew install --with-vapoursynth --with-libarchive --with-bundle --with-libbluray \
+--with-libdvdnav --with-libdvd-read --with-uchardet mpv
 ...
 [458/460] Compiling TOOLS/zsh.pl
 + install /usr/local/Cellar/mpv/0.23.0_2/bin/mpv (from build/mpv)
@@ -36,5 +36,6 @@ Couldn't find any options at /private/tmp/mpv-20170118-18128-1lsf3h9/mpv-0.23.0/
 
 Error: mpv 0.23.0 did not build
 ...
-TL;DR: Slykludge didn't fix it. Apparently needs libx265 v95, and libass v9?
------------------------
+TL;DR:
+Slykludge didn't fix it.
+Apparently mpv needs libx265 v95, and libass v9 to build with these flags?
