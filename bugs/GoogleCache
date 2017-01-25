@@ -1,12 +1,25 @@
 Background:
-There seems to be a prevalent myth that using Google's cache is an anonymous means of accessing the content of page on a particular website (anonymous to the end-server).
+There seems to be a prevalent myth that using Google's cache is an anonymous 
+means of accessing the content of page on a particular website (anonymous to 
+the end-server).
 
-Google Cache has three options: "Full version", "Text-only version", and "View source". By default however, Google has the Cache set to "Full version" with no way of setting the preference otherwise ahead of time.
+Google Cache has three options: "Full version", "Text-only version", and 
+"View source". By default however, Google has the Cache set to "Full version"
+with no way of setting the preference otherwise ahead of time.
+
 
 Problem:
-By default, when you access Google Cache--via Google's web interface for example, by clicking the downward arrow next to a URL and selecting to view the cached copy of it, you'll still hit the server you're requesting the cached document of and leak your IP to it.
+By default, when you access Google Cache--via Google's web interface for 
+example, by clicking the downward arrow next to a URL and selecting to view 
+the cached copy of it, you'll still hit the server you're requesting the 
+cached document of and leak your IP to it.
 
-This is due to the default setting--which can't be configured elsewhere--of auto-loading the "Full version" of the website, and the fact that Google does not cache entire copies of website content. When you access the Cache on this "Full version" setting, it instructs your browser to make requests to the server to load the remaining objects that Google does not cache, such as images.
+This is due to the default setting--which can't be configured elsewhere--of 
+auto-loading the "Full version" of the website, and the fact that Google does
+not cache entire copies of website content. When you access the Cache on this 
+"Full version" setting, it instructs your browser to make requests to the 
+server to load the remaining objects that Google does not cache, such as images.
+
 
 Short-term Work-around:
 - If you want the "Text-only version" append: "&strip=1" to the Cache URL.
@@ -14,8 +27,11 @@ Short-term Work-around:
 - Alternative caching websites
 
 Mid-term Work-around:
-- A FF/Chrome/etc-compatible browser extension that allows users to select the version of the cache that they wish to access, intercepts requests, and appends the appropriate suffix to the URL before sending it outbound.
+- A FF/Chrome/etc-compatible browser extension that allows users to select 
+the version of the cache that they wish to access, intercepts requests, and 
+appends the appropriate suffix to the URL before sending it outbound.
 
 Long-term Work-around:
 - Pester Google to prioritize adding this feature.
-- If you know any Google employees, talk to them about the problem, and see if you can get any internal advocates to champion and drive forward the project.
+- If you know any Google employees, talk to them about the problem, and see 
+if you can get any internal advocates to champion and drive forward the project.
