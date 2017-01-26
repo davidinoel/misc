@@ -1,11 +1,8 @@
 An archive of files, the majority of which I've writen in the past six months or so.
 
 They're broken down into:
-
 ./bugs: containing bug reports and substantial issues in various software projects I use or have used...
-
 ./feature-requests: useful additions to existing projects that I use or have used, and...
-
 ./projects-freebies: a list of useful software projects I probably won't have time to ever build myself that I figure it's time I make public in case someone else does have the time to bring them to life.
 
 There may be some overlap (in feature-requests and projects-freebies, for example), so the directory structure may change at some point in the future.
