@@ -7,7 +7,7 @@ They're broken down into:
 
 There may be some overlap (in feature-requests and projects-freebies, for example), so the directory structure may change at some point in the future.
 
-Consider these released under the "Non-Commercial Flexitarian License". If you are involved in any of these projects, related ones, or wish to develop any of the projects I've described and have issues with the license, please contact me at my username at gmail.
+Consider these released under the "Non-Commercial Flexitarian License". If you are involved in any of these projects, related ones, or wish to develop any of the projects I've described and have issues with the licensing, please contact me at my username at gmail.
 
 
 
