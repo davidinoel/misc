@@ -7,7 +7,7 @@ They're broken down into:
 
 There may be some overlap (in feature-requests and projects-freebies, for example), so the directory structure may change at some point in the future.
 
-Consider these released under somewhat of a "Flexitarian License". If you are involved in any of these projects, related ones, or wish to develop any of the projects I've described and have issues with the licensing, please contact me at my username at gmail.
+Consider these released under the "Non-Commercial Flexitarian License". If you are involved in any of these projects, related ones, or wish to develop any of the projects I've described and have issues with the license, please contact me at my username at gmail.
 
 While I'm primarily a Software Entreprenuer and SBO (SysAdmin, Software Architect, Software Developer, QA, Designer, UI/UX Lead, Project Manager, On and Off-site Team Lead, Product Manager, Sales Lead, Marketing Head, Customer Support (Head of Listening, Apologizing, Documenting Feedback, and modifying processes so negative experiences are not repeated), etc, I do--out of unfortunate necessity--also do a fair amount of security-related work.
 
