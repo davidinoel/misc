@@ -1,0 +1,7 @@
+Cert Patrol:
+
+- Feature: add an option to save rejected certs for sites, so we don't have to continue rejecting the same cert over and over.
+
+- Nuisance: stop forcing focus of the window where to the cert patrol pop-up warning is.
+
+For example, when the browser is restarted and the tabs are re-loaded and either the browser is set to auto-fetch, or the user manually rapid-cycles through the tabs to load them, Cert Patrol forces focus on tabs where alerts are thrown. Users can address each alert when we navigate to the tab, it doesn't have to force-focus. It's a massive nuisance to switch tab/window focus without consent, or at least allowing users to toggle it off.
