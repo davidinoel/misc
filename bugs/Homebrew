@@ -24,4 +24,5 @@ Ensure that those sessions are forced on to a modern protocol and cypher suite.
 4.) TO DO: Homebrew also makes outgoing connections via Python. 
 Ensure that those sessions are forced on to a modern protocol and cypher suite.
 
+
 5.) TO DO: Reference and/or briefly summarize the Cert Patrol-like Certificate Stapling user-land or daemon-level application writeup, and the attacks that it could prevent in these command-line cases.
