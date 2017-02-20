@@ -20,4 +20,3 @@ For this reason, another great feature to have would be to incorporate the lates
 [1] Servers can easily be hacked, CloudFlare et al. allow servers to send unencrypted traffic to them, encrypt it, and then relay it on to the end-user, leaving a number of hops open for compromise, and on.
 
 *For both of these, a database of white-listed websites would work, but it would require constant and distributed scanning, and would still not prevent targeted attacks by compromised servers, or attacks on the database itself. For the sake of end-user security, incorporating the tools to verify the connections into their browsers is the ideal solution.
-========================================================
