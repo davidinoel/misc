@@ -1,4 +1,4 @@
-#A Distributed System of Trust For Online Content - DRAFT
+##A Distributed System of Trust For Online Content - DRAFT
 
 **The problem this writeup attempts to address is that regardless of the adoption of TLS, both broad or targeted attacks will always be viable by means of breaching networks, servers, download sites; by finding implementation flaws in TLS, or weaknesses in it and pulling off man-in-the-middle attacks, resulting in systems that download and process these files becoming compromised as a result.**
 
