@@ -15,4 +15,4 @@ One could say: perhaps this model may only thwart targeted attacks against indiv
 On the other hand, if an attacker compromised a website with a known and hashed download, modified it, and future users downloaded it as well, it would immediately raise a red flag, and give the user reason to investigate, check alternative channels for hash information, and save many from infecting themselves from, what today can be, for non-experienced Computer Engineers and Systems Developers, the end of a computer's life.
 
 [0]: https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19 "Hovik's Law of Software Bugs"
-[1]: "David's Law of Vulnerabilites"
+[1]: https://marc.info/?l=freebsd-security&m=139715957600570&w=2 "David's Law of Vulnerabilites"
