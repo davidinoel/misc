@@ -35,4 +35,3 @@ Enabling scripts on a per-script basis would really be ideal. Currently, the onl
 
 2d.) Per-Page
 Site, or domain-wide enabling of scripts can be a risky proposition, which is the default--and only-option of NoScript. If a script hidden far down from the root contains something malicious and I load that page, the script will be auto-executed in my browser because I have either temporarily enabled, or permanently enabled scripts on that site; I have given them wholesale permission to run anything within my browser(!).
-========================================================
