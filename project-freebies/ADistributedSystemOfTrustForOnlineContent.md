@@ -1,6 +1,6 @@
 #A Distributed System of Trust For Online Content - DRAFT
 
-###The problem this writeup attempts to address is that regardless of the adoption of TLS, both broad or targeted attacks will always be viable by means of breaching networks, servers, download sites; by finding implementation flaws in TLS, or weaknesses in it and pulling off man-in-the-middle attacks, resulting in systems that download and process these files becoming compromised as a result.
+####The problem this writeup attempts to address is that regardless of the adoption of TLS, both broad or targeted attacks will always be viable by means of breaching networks, servers, download sites; by finding implementation flaws in TLS, or weaknesses in it and pulling off man-in-the-middle attacks, resulting in systems that download and process these files becoming compromised as a result.
 
 There may be some overlaps here with the JavaScript Antivirus I describe in another document, and the essence of the problem really is the same: there is a lot of data, and a lot of content that users have access to online. By accessing it, it can be downloaded and stored, downloaded, parsed, and used... or even executed.
 
