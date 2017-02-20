@@ -1,6 +1,5 @@
-========================================================
-HTTPSEverywhere
---------------------------------------------------------
+##HTTPSEverywhere
+
 1.) Not All TLS Protocols and Cipher Suites Are the Same
 
 As research on old standards is performed and flaws are uncovered, they are deprecated, and new Protocols and Suites are recommended. Unfortunately this information does not spread as quickly as it would in an ideal world, and servers are left exposed on the internet running outdated and dangerous versions, supporting insecure protocols and Cipher Suites.
@@ -14,9 +13,18 @@ For these reasons, useful features to include in HTTPSEverywhere would be:
 
 Even the "latest and [thought to be] greatest" Protocols, Cipher Suites, and Implementations of TLS aren't always safe to use. The standard can very easily be implemented incorrectly, and history--with a long list of CVE's and Security Advisories--shows this to be true.
 
-For this reason, another great feature to have would be to incorporate the latest tools released by security researchers to test and verify TLS implementations for correctness[0], so that users aren't given an entirely false sense of security when making a connection[1].
+For this reason, another great feature to have would be to incorporate the latest tools released by security researchers to test and verify TLS implementations for [correctness][0], so that users aren't [given an entirely false sense of security as to whether they can be compromised, or MITM'd when making a connection][1].
 
-[0] Nonce reuse[0] was a recent disclosed issue at the time this was originally written [ https://gcm.tlsfun.de/ ]
-[1] Servers can easily be hacked, CloudFlare et al. allow servers to send unencrypted traffic to them, encrypt it, and then relay it on to the end-user, leaving a number of hops open for compromise, and on.
+[0] https://gcm.tlsfun.de/ "Nonce reuse was a recent disclosed issue at the time this was originally written"
+[1] https://www.google.com/ "Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on."
 
-*For both of these, a database of white-listed websites would work, but it would require constant and distributed scanning, and would still not prevent targeted attacks by compromised servers, or attacks on the database itself. For the sake of end-user security, incorporating the tools to verify the connections into their browsers is the ideal solution.
+* For both of these, a database of white-listed websites would work, but it would require constant and distributed scanning, and would still not prevent targeted attacks by compromised servers, or attacks on the database itself. For the sake of end-user security, incorporating the tools to verify the connections into their browsers is the ideal solution.
+
+<html>
+  <body>
+    <text>
+      &#91;0&#93;&nbsp;"Nonce reuse was a recent disclosed issue at the time this was originally written":&nbsp;<a href="https://gcm.tlsfun.de/">https://gcm.tlsfun.de/<a/><br/>
+      &#91;1&#93;&nbsp;"Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on.":&nbsp;<a href="https://www.google.com/">https://www.google.com/<a/><br/>
+    <text/>
+   <body/>
+<html/>
