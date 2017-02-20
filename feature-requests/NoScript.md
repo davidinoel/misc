@@ -15,6 +15,9 @@ A very useful feature to include would be:
 
 Even the "latest and [thought to be] greatest" implementations of TLS aren't always safe to use; they can and are often implemented incorrectly. For this reason, another great feature to have, and the reason this is labeled (1a), would be to incorporate the latest tools released by researchers to test and verify the TLS implementation for correctness ([nonce reuse][0], was a recent issue at the time this was originally written), so that users aren't [given an entirely false sense of security about their TLS connection][1].
 
+[0]: https://gcm.tlsfun.de/ "Nonce reuse was a recent disclosed issue at the time this was originally written"
+[1]: https://www.google.com/ "Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on."
+
 <html>
   <body>
     <text>
