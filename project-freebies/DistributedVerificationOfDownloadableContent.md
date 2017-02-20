@@ -1,4 +1,4 @@
-##A Distributed System of Trust For Downloadable Content - DRAFT
+##Distributed Verification of Downloadable Content - DRAFT
 
 ####The problem this writeup attempts to address is that regardless of the adoption of TLS, both [broad and targeted attacks will always be a viable means of compromising systems][0], [and if viable, utilized][1]. Breaching networks, servers, download sites; finding or introducing implementation flaws in TLS, or weaknesses in its Cipher Suites and pulling off man-in-the-middle attacks; all of these can result in users downloading and processing these files, and becoming compromised as a result.
 
