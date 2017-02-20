@@ -23,8 +23,8 @@ For this reason, another great feature to have would be to incorporate the lates
 <html>
   <body>
     <text>
-      &#91;0&#93;&nbsp;"Nonce reuse was a recent disclosed issue at the time this was originally written":&nbsp;<a href="https://gcm.tlsfun.de/">https://gcm.tlsfun.de/<a/><br/>
-      &#91;1&#93;&nbsp;"Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on.":&nbsp;<a href="https://www.google.com/">https://www.google.com/<a/><br/>
+      &#91;0&#93;&nbsp;"Nonce reuse was a recent disclosed issue at the time this was originally written"&nbsp;-&nbsp;&#91;<a href="https://gcm.tlsfun.de/">https://gcm.tlsfun.de/<a/>&#93;<br/>
+      &#91;1&#93;&nbsp;"Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on."&nbsp;-&nbsp;&#91;<a href="https://www.google.com/">https://www.google.com/<a/>&#93;<br/>
     <text/>
    <body/>
 <html/>
