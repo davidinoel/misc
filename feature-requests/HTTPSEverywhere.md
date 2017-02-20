@@ -15,10 +15,10 @@ Even the "latest and [thought to be] greatest" Protocols, Cipher Suites, and Imp
 
 For this reason, another great feature to have would be to incorporate the latest tools released by security researchers to test and verify TLS implementations for [correctness][0], so that users aren't [given an entirely false sense of security as to whether they can be compromised, or MITM'd when making a connection][1].
 
-[0] https://gcm.tlsfun.de/ "Nonce reuse was a recent disclosed issue at the time this was originally written"
-[1] https://www.google.com/ "Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on."
+[0]: https://gcm.tlsfun.de/ "Nonce reuse was a recent disclosed issue at the time this was originally written"
+[1]: https://www.google.com/ "Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on."
 
-* For both of these, a database of white-listed websites would work, but it would require constant and distributed scanning, and would still not prevent targeted attacks by compromised servers, or attacks on the database itself. For the sake of end-user security, incorporating the tools to verify the connections into their browsers is the ideal solution.
+* For both of these, a database of white-listed websites would work, but it would require constant and distributed scanning, and would still not prevent targeted attacks by compromised servers, or attacks on the database itself. For the sake of end-user security, incorporating the tools to verify the connections into their browsers is the ideal solution. *
 
 <html>
   <body>
