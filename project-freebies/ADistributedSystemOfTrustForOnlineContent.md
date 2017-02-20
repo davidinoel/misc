@@ -1,14 +1,10 @@
-==================================================
-Distributed Verification Of Remote Content - DRAFT
---------------------------------------------------
+#A Distributed System of Trust For Online Content - DRAFT
 
-A Distributed System of Trust For Online Content:
+###The problem this writeup attempts to address is that regardless of the adoption of TLS, both broad or targeted attacks will always be viable by means of breaching networks, servers, download sites; by finding implementation flaws in TLS, or weaknesses in it and pulling off man-in-the-middle attacks, resulting in systems that download and process these files becoming compromised as a result.
 
 There may be some overlaps here with the JavaScript Antivirus I describe in another document, and the essence of the problem really is the same: there is a lot of data, and a lot of content that users have access to online. By accessing it, it can be downloaded and stored, downloaded, parsed, and used... or even executed.
 
 I should try to define how this project is different from the JavaScript A/V, and while it's tempting to make a blanket statement that this should cover all non-JS objects (and while that would be a great project and a great end-goal to have), maybe narrowing this a bit would be good, and focusing exclusively on content on public websites that users are able to download (as in: save to disk, open in a viewer of some sort, or execute).
-
-The problem here is that with or without widespread adoption of TLS, regardless, either broad or targeted attacks can be performed by breaching servers, download sites, or pulling off man-in-the-middle attacks, and systems that download and process these files can become compromised as a result.
 
 The solution to this could involve developing perhaps a distributed, or perhaps a number of centralized systems. In an ideal world either solution would work equally well, but we do not live in such a world. Distributed models have their strengths and weaknesses, as do Centralized, and Distributed-Centralized models. The solution would involve users downloading the online content, and then verifying it against a database of known files. This database could be built-in, acquired and updated upon peering, and continuted activity on the network, or per request to any of the servers hosting the file signatures.
 
