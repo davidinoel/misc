@@ -16,7 +16,7 @@ There are a number of ways the database could be obtained: built-in, acquired an
 
 In an ideal world any of these models would work equally well, but we do not live in such a place. Distributed models have their strengths and weaknesses, as do Centralized, and Hybrid models. The solution would involve extensive testing, auditing, fuzzing, and ultimately rely on the global security community and it recognizing the need for such an application.
 
-Certainly, like everything in life, this is by no means without flaw. Even the idea of it. Ideally though it's a starting point for something bigger and better, such as disposable test-beds 
+Certainly, like everything in life, this is by no means without flaw. Even the idea of it. Ideally though it's a starting point for something bigger and better, such as a distributed network of proxies to download the content as well, and disposable test-beds to execute them in, and analyze them for malicious behavior.
 
 [0]: https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19 "Hovik's Law of Software Bugs"
 [1]: https://marc.info/?l=freebsd-security&m=139715957600570&w=2 "David's Law of Vulnerabilites"
