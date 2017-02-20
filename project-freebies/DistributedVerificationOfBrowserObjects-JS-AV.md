@@ -1,5 +1,6 @@
-DistributedVerificationOfBrowserObjects - DRAFT
-===============================================
+=======================================
+DistributedVerificationOfBrowserObjects
+---------------------------------------
 
 A Distributed System of Trust for Browser Objects.
 
