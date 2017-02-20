@@ -1,5 +1,6 @@
-DistributedVerificationOfRemoteContent - DRAFT
-==============================================
+==================================================
+Distributed Verification Of Remote Content - DRAFT
+--------------------------------------------------
 
 A Distributed System of Trust For Online Content:
 
