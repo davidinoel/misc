@@ -1,4 +1,4 @@
-##Distributed Verification Of Browser Objects: A JavaScript Antivirus
+##Distributed Verification Of Browser Objects: A JavaScript Antivirus - DRAFT
 
 Here is the "JavaScript AntiVirus" document I've referred to in several others. I feel though, while JavaScript is a great place to start--a well known and common attack vector against browsers, that it might also be worth broadening it to "Browser Objects" in general. While the "Big Three" may be HTML, JavaScript, and CSS, as web standards, specifications, and languages develop, they add layer upon layer of complexity to the modern web browser. From this, bugs can arise in both places: the specification and the implementation of the browser. So naturally as the browsers evolve with these standards, new bugs are discovered.
 
