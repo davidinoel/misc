@@ -27,4 +27,4 @@ This is due to the the Cache's default setting--which can't be configured elsewh
 
 ####Long-term Work-arounds:
 - Google adding this feature to allow users to pre-select the version of the cache that they desired would be ideal, and is really something they should have implemented in the first place.
-- If you know any Google employees, talk to them about the problem, and see if you can get any internal advocates to champion and drive the project forward.
+- If you know any Google employees, talk to them about the problem, and see if you can get any internal advocates to champion and drive the project forward. Pointing out how it undermines user trust, confidence, encourages attrition/disengagement, and promotes the development of alternatives that do support this simple feature (loss of market share, opens a space for a competitor to fill) are all great points to bring up when pitching a manager or executive. Passing along the same to a anyone else in the company to explain to higher-ups or those with ownership of that feature would be equally effective.
