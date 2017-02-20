@@ -1,6 +1,6 @@
 ##A Distributed System of Trust For Downloadable Content - DRAFT
 
-####The problem this writeup attempts to address is that regardless of the adoption of TLS, both broad and targeted attacks will always be a viable means of compromising systems, and if viable, utilized(0). Breaching networks, servers, download sites; finding or introducing implementation flaws in TLS, or weaknesses in its Cipher Suites and pulling off man-in-the-middle attacks; all of these can result in users downloading and processing these files, and becoming compromised as a result.
+####The problem this writeup attempts to address is that regardless of the adoption of TLS, both broad and targeted attacks will always be a viable means of compromising systems, and if viable, utilized[0]. Breaching networks, servers, download sites; finding or introducing implementation flaws in TLS, or weaknesses in its Cipher Suites and pulling off man-in-the-middle attacks; all of these can result in users downloading and processing these files, and becoming compromised as a result.
 
 There may be some overlaps here with the JavaScript Antivirus I describe in another document, and the essence of the problem really is the same:
 #####There is a lot of data, and a lot of content that users have access to online. By accessing it, it can be downloaded and stored; downloaded, stored and executed in any number of contexts; downloaded, parsed (a different way of saying "executed"), and used; and the list goes on.
@@ -14,5 +14,5 @@ One could say: perhaps this model may only thwart targeted attacks against indiv
 
 On the other hand, if an attacker compromised a website with a known and hashed download, modified it, and future users downloaded it as well, it would immediately raise a red flag, and give the user reason to investigate, check alternative channels for hash information, and save many from infecting themselves from, what today can be, for non-experienced Computer Engineers and Systems Developers, the end of a computer's life.
 
-[0]: David's Law of Vulnerabilites (source: , related to (1))
+[0]: David's Law of Vulnerabilites (source: , related to [1])
 [1]: Hovik's Law of Software Bugs (source: https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19)
