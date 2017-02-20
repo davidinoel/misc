@@ -1,6 +1,5 @@
-========================================================
-NoScript
---------------------------------------------------------
+##NoScript
+
 1.) Not All TLS Protocols and Cipher Suites Are The Same
 
 Assuming that users have NoScript configured properly and the only scripts being allowed to run are either on:
@@ -12,15 +11,18 @@ A very useful feature to include would be:
 - On the drop-down menu, allow users to see information about the TLS connection (protocol + cipher suite) that the site they're being asked to enable scripts on is serving them over.
 - It would also be useful for less savvy users who may not have modified their browser configuration settings to restrict the protocols and cipher suites over which they will accept connections to also have a grading system--e.g. a color code such as Red, Yellow, and Green--to allow less-savvy users to know which protocols are considered reasonably safe and which are not.
 
-1a.) Not All TLS is Implemented Correctly
+1a.) No TLS Implementation is Without Flaw
 
-Even the "latest and [thought to be] greatest" implementations of TLS aren't always safe to use. They can very easily be implemented incorrectly and on many cases it has been proven to be the case that this is often the unfortunate reality.
+Even the "latest and [thought to be] greatest" implementations of TLS aren't always safe to use; they can and are often implemented incorrectly. For this reason, another great feature to have, and the reason this is labeled (1a), would be to incorporate the latest tools released by researchers to test and verify the TLS implementation for correctness ([nonce reuse][0], was a recent issue at the time this was originally written), so that users aren't [given an entirely false sense of security about their TLS connection][1].
 
-For this reason, another great feature to have, and the reason this is labeled (1a), would be to incorporate the latest tools released by researchers to test and verify the TLS implementation for correctness (nonce reuse[0], was a recent issue at the time this was originally written), so that users aren't given an entirely[1] false sense of security.
-
-[0] https://gcm.tlsfun.de/
-[1] Servers can easily be hacked, CloudFlare et al. allow servers to send unencrypted traffic to them, encrypt it, and then relay it on to the end-user, leaving a number of hops open for compromise, and on.
-
+<html>
+  <body>
+    <text>
+      &#91;0&#93;&nbsp;"Nonce reuse was a recent disclosed issue at the time this was originally written"&nbsp;-&nbsp;&#91;<a href="https://gcm.tlsfun.de/">https://gcm.tlsfun.de/<a/>&#93;<br/>
+      &#91;1&#93;&nbsp;"Vulnerabilities to compromise servers via flaws in TLS implementations aren't unheard of. CloudFlare et al. allow servers to send unencrypted traffic to them, whereupon they then encrypt it, relay it on to the end-user, leaving a number of hops open for compromise, and the end-user's none the wiser, and on."&nbsp;-&nbsp;&#91;<a href="https://www.google.com/">https://www.google.com/<a/>&#93;<br/>
+    <text/>
+   <body/>
+<html/>
 
 2.) Context-Dependent Approval of Scripts (Temporary or Permanent):
 
