@@ -17,10 +17,10 @@ On the other hand, if an attacker compromised a website with a known and hashed 
 [0]: https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19 "Hovik's Law of Software Bugs"
 [1]: https://marc.info/?l=freebsd-security&m=139715957600570&w=2 "David's Law of Vulnerabilites"
 <html>
-<body>
-<text>
-&#91;0&#93;&nbsp;<a href="https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19">https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19<a/> "Hovik's Law of Software Bugs"<br/>
-&#91;1&#93;&nbsp;<a href="https://marc.info/?l=freebsd-security&m=139715957600570&w=2">https://marc.info/?l=freebsd-security&m=139715957600570&w=2<a/> "David's Law of Vulnerabilites"<br/>
-<text/>
-<body/>
+  <body>
+    <text>
+      &#91;0&#93;&nbsp;"Hovik's Law of Software Bugs"&nbsp;<a href="https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19">https://medium.com/@hovm/the-law-of-software-bugs-47dcfd713f19<a/><br/>
+      &#91;1&#93;&nbsp;"David's Law of Vulnerabilites"&nbsp;<a href="https://marc.info/?l=freebsd-security&m=139715957600570&w=2">https://marc.info/?l=freebsd-security&m=139715957600570&w=2<a/><br/>
+    <text/>
+   <body/>
 <html/>
