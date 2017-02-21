@@ -5,11 +5,7 @@
 
 
 
-Here is the "JavaScript AntiVirus" document I've referred to in several others. I feel though, while JavaScript is a great place to start--a well known and common attack vector against browsers, that it might also be worth broadening it to "Browser Objects" in general. While the "Big Three" may be HTML, JavaScript, and CSS, as web standards, specifications, and languages develop, they add layer upon layer of complexity to the modern web browser. From this, bugs can arise in both places: the specification and the implementation of the browser. So naturally as the browsers evolve with these standards, new bugs are discovered.
-
-I'd initially chosen and described this as a JS A/V because, as I said, it seems to be the primary attack vector against browsers (aside from Flash installations, phishing attacks, malicious downloads, and errors that those non-security-minded people might make), so I'll explain this using JS as the example, and then abstract it away to Browser Objects in general.
-
-This may prevent an interesting addition to NoScript that would allow users to violate conventional wisdom of disallowing all scripts over HTTP, depending on how they are written.
+While the "Big Three" may be HTML, JavaScript, and CSS, as web standards, specifications, and languages develop, they add layer upon layer of complexity to the modern web browser. From this, bugs can arise in both places: the specification and the implementation of the browser. So naturally as the browsers evolve with these standards, new bugs are discovered.
 
 The goals of this project are several. While it does share some similarities to the Distributed Verification of Remote Content write-up, in this case it could run as a browser extension. Primarily it would be to ensure that the JS received by the browser is secure; safe to run.
 
