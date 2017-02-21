@@ -1,5 +1,11 @@
 ##Distributed Verification Of Browser Objects: A JavaScript Antivirus - DRAFT
 
+####The problem that this write-up describes and addresses is that JavaScript hosted on websites--whether served over TLS or not--is typically trusted and executed by the browser. "Trust-by-default" is never a good practice, nor is "trust, but verify"; only "Verify, but remain open to the possibility that the verification process may have its own set of errors." In other words: "Verify, but remain skeptical."
+
+
+
+
+
 Here is the "JavaScript AntiVirus" document I've referred to in several others. I feel though, while JavaScript is a great place to start--a well known and common attack vector against browsers, that it might also be worth broadening it to "Browser Objects" in general. While the "Big Three" may be HTML, JavaScript, and CSS, as web standards, specifications, and languages develop, they add layer upon layer of complexity to the modern web browser. From this, bugs can arise in both places: the specification and the implementation of the browser. So naturally as the browsers evolve with these standards, new bugs are discovered.
 
 I'd initially chosen and described this as a JS A/V because, as I said, it seems to be the primary attack vector against browsers (aside from Flash installations, phishing attacks, malicious downloads, and errors that those non-security-minded people might make), so I'll explain this using JS as the example, and then abstract it away to Browser Objects in general.
