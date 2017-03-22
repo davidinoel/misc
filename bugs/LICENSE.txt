@@ -1,0 +1,40 @@
+The Non-Commercial Flexitarian License
+Copyright (c) 2017 David I. Noel (https://github.com/davidinoel/)
+https://github.com/davidinoel/misc/bugs
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files ("the Software"), to use
+and work with the Software, including without limitation the rights to copy,
+modify, merge, publish, and distribute, subject to the following conditions:
+
+The entirety of the License and this permission notice shall be included in 
+all copies of the Software.
+
+The Software is neither used for commercial purposes, limited to the extent 
+that it is used:
+1. for benefiting and funding the projects which the Software are titled after,
+1a. for benefiting and funding the projects which the Software are analogues of, 
+granted there exists in the Software specific mention of the project or projects 
+by the use of the language "[project]-like". Eg: "A radio-collar-fence-like 
+solution for solving the age old problem of why chickens keep crossing the road."
+1b. the development of the Software described, 
+2. to fund David I. Noel (the "Author"), for continued work, research, 
+development, or for any other reason. 
+3. as otherwise granted by the Author upon request.
+*If you are involved in any of these projects, related ones, or wish to 
+develop any of the projects I've described and have issues with the licensing, 
+please contact me at my username at gmail.*
+
+If any paragraph, section, clause, or part of the License shall be held or 
+declared to be void, invalid, or illegal, for any reason, by any court of 
+competent jurisdiction, such provision shall be ineffective but shall not 
+in any way invalidate or affect any other clause, Paragraph, section or part 
+of this Agreement. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
