@@ -1,6 +1,6 @@
-##Homebrew
+## Homebrew
 
-####INTRO:
+#### INTRO:
 Based on how long it's taken for the bug report describing the issue of adding the "--require-sha" flag to ~/.&#91;shell&#93;&#95;profile's HOMEBREW_CASK_FLAGS and it breaking `brew cask search` to be filed, and its popularity among the tech community, it's surprising that this and other similar conversations didn't come up far sooner.
 
 - There's a valid conversation that needs to take place about the way hashes are obtained and their reliability. If a download site is using HTTP and an attacker is sitting a hop or two above the download site, it's trivial for both the download file and the hash to be compromised and neither the Homebrew user nor the package maintainer to be any the wiser. The maintainer will download the package and hash, verify that they match, and then update the appropriate Formula with the corresponding sum and link, and millions of Homebrew users will be successfuly MITM'd.
@@ -19,7 +19,7 @@ Based on how long it's taken for the bug report describing the issue of adding t
 
 
 - TO DO: Homebrew also makes outgoing connections via Ruby (to GitHub).
-Ensure that those sessions are forced on to a modern protocol and cypher suite.
+Ensure that those sessions are forced on to a modern protocol and cypher suite (should be ok?).
 
 - TO DO: Homebrew also makes outgoing connections via Python. 
 Ensure that those sessions are forced on to a modern protocol and cypher suite.
