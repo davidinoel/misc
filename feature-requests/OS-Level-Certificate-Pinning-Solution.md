@@ -1,4 +1,4 @@
-##An Operating System-Level Certificate Pinning Solution
+## An Operating System-Level Certificate Pinning Solution
 
 Cert Patrol is a great browser extension that fills the gap between the current tools available in Operating Systems and web browsers to ensure the integrity of TLS connections being made. Unfortunately, the web browser isn't the only application to make use of TLS within the Operating System.
 
