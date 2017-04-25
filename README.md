@@ -7,6 +7,8 @@ They're broken down into:
 
 There may be some overlap (in feature-requests and projects-freebies, for example), so the directory structure may change at some point in the future.
 
-Consider these released under the "Non-Commercial Flexitarian License". If you are involved in any of these projects, related ones, or wish to develop any of the projects I've described and have issues with the licensing, please contact me at my username at gmail.
+Consider these released under the "Non-Commercial Flexitarian License". If you are involved in any of these projects, related ones, and or have issues with the licensing, please contact me at my us ern ame at gmail.
 
-I'm always looking for business partners to assist in building out my never-ending list of projects, so if anything you find here strikes you as a fairly good idea--keeping in mind that these are the freebies I'm giving out publicly--and you have any interest in more profitable projects, please feel free to get in touch. I also freelance, have experience in most areas of business, and am open to remote consulting opportunities.
+I also freelance, have experience in most areas of business, and am open to remote consulting opportunities, but I'm always looking for business partners to assist in building out my never-ending list of projects. So if anything you find here strikes you as a fairly good idea--keeping in mind that these are the freebies I'm giving out publicly--and you have any interest in more profitable projects, please feel free to get in touch at my use rna me at g m a il.
+
+While I'm primarily a Software Entrepreneur and Small Business Owner, with expertise in the areas of (starting from the ground up): Software Architecture, Software Development, Software Security, Code Auditing, QA, Design, Systems Administration, UI, UX, User Engagement and Retention, On and Off-shore Project Management and Team Lead, Product Management, Sales Lead, Marketing Head, Customer Support, Legal, Accounting/Finance, and on.
