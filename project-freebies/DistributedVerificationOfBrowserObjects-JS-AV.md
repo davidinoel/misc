@@ -1,6 +1,6 @@
-##Distributed Verification Of Browser Objects: A JavaScript Antivirus - DRAFT
+## Distributed Verification Of Browser Objects: A JavaScript Antivirus - DRAFT
 
-####The problem that this write-up describes and addresses is that JavaScript hosted on websites--whether served over TLS or not--is typically trusted and executed by the browser. "Trust-by-default" is never a good practice, nor is "trust, but verify"; only "Verify, but remain open to the possibility that the verification process may have its own set of errors." In other words: "Verify, but remain skeptical."
+#### The problem that this write-up describes and addresses is that JavaScript hosted on websites--whether served over TLS or not--is typically trusted and executed by the browser. "Trust-by-default" is never a good practice, nor is "trust, but verify"; only "Verify, but remain open to the possibility that the verification process may have its own set of errors." In other words: "Verify, but remain skeptical."
 
 
 
