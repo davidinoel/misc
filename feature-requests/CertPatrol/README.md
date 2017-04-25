@@ -1,4 +1,4 @@
-##CertPatrol
+## CertPatrol
 
 *Feature:* Add an option to save rejected certs for sites, so we don't have to continue rejecting the same cert over and over.
 
