@@ -1,3 +1,7 @@
+Update: Issue has since been resolved.
+
+- - - - - - - - - - - - - - - - - - - - - -
+
 % brew install --with-vapoursynth --with-libarchive --with-bundle --with-libbluray \
 --with-libdvdnav --with-libdvd-read --with-uchardet mpv
 ...
