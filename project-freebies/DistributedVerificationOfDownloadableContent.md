@@ -1,9 +1,9 @@
-##Distributed Verification of Downloadable Content - DRAFT
+## Distributed Verification of Downloadable Content - DRAFT
 
-####The problem this writeup attempts to address is that regardless of the adoption of TLS, both [broad and targeted attacks will always be a viable means of compromising systems][0], [and if viable, utilized][1]. Breaching networks, servers, download sites; finding or introducing implementation flaws in TLS, or weaknesses in its Cipher Suites and pulling off man-in-the-middle attacks; all of these can result in users downloading and processing these files, and becoming compromised as a result.
+#### The problem this writeup attempts to address is that regardless of the adoption of TLS, both [broad and targeted attacks will always be a viable means of compromising systems][0], [and if viable, utilized][1]. Breaching networks, servers, download sites; finding or introducing implementation flaws in TLS, or weaknesses in its Cipher Suites and pulling off man-in-the-middle attacks; all of these can result in users downloading and processing these files, and becoming compromised as a result.
 
 The essence of the problem is similar to the JavaScript A/V writeup:
-#####There is a lot of data, and a lot of downloadable content that users have access to online. By accessing it, it can be downloaded and run; downloaded, stored, and later executed in any number of contexts; downloaded, parsed (a different way of saying "executed"); and the list goes on.
+##### There is a lot of data, and a lot of downloadable content that users have access to online. By accessing it, it can be downloaded and run; downloaded, stored, and later executed in any number of contexts; downloaded, parsed (a different way of saying "executed"); and the list goes on.
 
 To differentiate this from the other (browser-based) projects I've written about here, I will clarify how and why this project is different.
 - It is different because the goal is to focus exclusively on verifying downloadable content in general.
