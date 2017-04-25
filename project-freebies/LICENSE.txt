@@ -15,8 +15,7 @@ that it is used:
 1. for benefiting and funding the projects which the Software are titled after,
 1a. for benefiting and funding the projects which the Software are analogues of, 
 granted there exists in the Software specific mention of the project or projects 
-by the use of the language "[project]-like". Eg: "A radio-collar-fence-like 
-solution for solving the age old problem of why chickens keep crossing the road."
+by the use of the language "[project]-like".
 1b. the development of the Software described, 
 2. to fund David I. Noel (the "Author"), for continued work, research, 
 development, or for any other reason. 
