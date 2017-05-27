@@ -3,24 +3,37 @@
 #### INTRO:
 Based on how long it's taken for the bug report describing the issue of adding the "--require-sha" flag to ~/.&#91;shell&#93;&#95;profile's HOMEBREW_CASK_FLAGS, it breaking of the `brew cask search` command to be filed, and its recognition among the tech community, it's surprising that this and other similar conversations didn't come up far sooner.
 
-- Roughly 20% of Homebrew Cask Formula's currently contain "sha256 :no_check", meaning that not only do they lack the basc layer of security most would expect from a package manager by not allowing Caskroom to verify their sha256 signatures, but that if end-users were to set the --require-sha flag, 20% of the software packages via Caskroom would be unavailable to them because the signatures were not provided by the maintainers in the Formula.  
+- There's a valid conversation that needs to take place about the way hashes are obtained, and their reliability. If a download URL is using HTTP, FTP, or some other insecure protocol, and the an attacker is sitting a hop or two in front of the download site, it's trivial for both the download file and the hash itself to be compromised, with neither the package maintainer nor most Homebrew users being any the wiser. In this scenario, the maintainer would download the compromised package and corresponding hash (or generate it on their end), and update the Formula with the corresponding sum and link, push it live, and allow millions of Homebrew users to update their systems, become successfuly MITM'd, and compromised.
 
-    % cd /usr/local/Homebrew/Library/Taps/caskroom  
-    % find . |grep "\.rb" | wc -l  
-        3779  
-    % grep -r "sha256 :no_check" | wc -l  
-        761  
-    761/3779 ~= 20%  
+    % cd /usr/local/Homebrew/Library/Taps/homebrew
+    % grep -r "url \"http\:" | wc -l
+    1159
+    % find . | grep "\.rb" | wc -l
+    5691
 
-- There's a valid conversation that needs to take place about the way hashes are obtained, and their reliability. If a download site is using HTTP, and an attacker is sitting a hop or two in front of the download site, it's trivial for both the download file and the hash itself to be compromised, with neither the package maintainer nor most Homebrew users being any the wiser. In this scenario where a MITM is being pulled off, the maintainer would download the compromised package and corresponding hash (or generate it on their end), and update the Formula with the corresponding sum and link, push it live, and allow millions of Homebrew users to update their systems, become successfuly MITM'd, and compromised.
+    1159/5691 ~= 20%
 
-  In addition, while SourceForge's download page is wrapped in TLS, they auto-redirect users to download binaries over HTTP. It is simply not possible to download anything without a secure signature over HTTP. Again, the issue isn't limited to SourceForge. While the majority of other download sites used may not necessarily start out over TLS, and redirect users to download binaries over HTTP, there are certainly a large number of sites Therefore, there is no possible way that Formula maintainers can have any certainty whatsoever that the binaries they download and hash are not compromised, and that every Homebrew user who downloads from SourceForge isn't compromising their system by downloading from the site.
+- That assumes the site even hosts a hash of the binary. Many others do not (and I'll pick on SourceForge because they're the oldest, and largest, among other things), so hashes must be generated some other way, such as after the files are downloaded.
 
-  HOWEVER, they do allow the source-code to be downloaded over a secure channel, so source syncs to GitHub, and unofficial mirrors of the binaries generated from the source hosted there would be a more secure alternative.
+  ...and that's certainly a separate, worthwhile coversation: how are hashes generated, verified, and could that process be improved? Under the currrent model, ideally Formula maintainers are manually verifying that the hashes match their downloads prior to updating the Formula. In the future, a distributed approach toward hash verification would be ideal, and either built in to Homebrew for everyone to contribute to, or built in as a part of something that the maintainers, or project members would have access to. The reasons to consider the different approaches are that while granting access to everyone opens the project, and thus the entire network up to large-scale attacks, keeping it closed to a select few opens it up to targeted attacks on those few, so it's somewhat of a question of which sort of attack the project would prefer to take on; which they feel most capable of mitigating. There is obviously a lot more that could be covered under that, but I'll leave it there for now.
+
+  In addition, while SourceForge's download page is wrapped in TLS, the project pages, release pages, and download pages lack signatures for the binaries, and the site auto-redirects users to download them over HTTP. This makes it impossible for binaries to obtained from them securely.
+
+  However, they do allow the source-code to be downloaded over a secure channel, so if the SourceForge, or other location hosted projects' build flags are known, and reproducible builds are possible, either building the project from source and ensuring the sums are correct, source-syncs to GitHub (unofficial mirrors), or providing a downloadable version in the unofficial-official mirror...small teams independently generating builds with default flags, hashing them(reproducible builds on osx?)
 
   This isn't a problem exclusive to SourceForge, though they may be the biggest offender. There are plenty of cases of files downloaded from other sites over HTTP, and FTP.
 
-  That assumes the site even hosts a hash of the binary. Many others (and I'll pick on SourceForge because they're the oldest, and largest, among other things), do not, so hashes must be generated some other way, such as after the files are downloaded... and that's certainly another worthwhile coversation: how are hashes generated, verified, and could it be improved? Currently, ideally Formula maintainers are manually verifying that the hashes match prior to updating the Formula. Ideally, a distributed approach toward hash verification would be ideal, and either built in to Homebrew for everyone to contribute to (What SHA SUM did you receive? Let the community know!), or built in as a part of something that the maintainers, or project members would have access to. While granting access to everyone opens it up to large-scale attacks, keeping it closed opens it up to targeted attacks on project members, so it's somewhat of a question of which sort of attack the project would prefer to address. There's obviously a lot more that could be covered here, but I'll leave it at that for now.
+  
+
+- Roughly 20% of Homebrew Cask Formula's currently contain "sha256 :no_check", meaning that not only do they lack the basic layer of security most would expect from a package manager by not allowing Caskroom to verify their sha256 signatures, but that if end-users were to set the --require-sha flag in the above file, ~20% of the software packages available via Caskroom would be unavailable to them because the signatures are not provided in the Formula.  
+
+    % cd /usr/local/Homebrew/Library/Taps/caskroom  
+    % find . |grep "\.rb" | wc -l  
+    3779  
+    % grep -r "sha256 :no_check" | wc -l  
+    761  
+    
+    761/3779 ~= 20%  
 
 - Along the lines of MITM attacks, the imperative for a .curlrc file does not seem to be widely known, or at least publicly discussed. In addition to ensuring a SHA SUM is present in ~/.&#91;shell&#93;&#95;profile, a .curlrc file must be used to ensure that the server you are connecting to allows a secure TLS connection to be made to it. 
   
