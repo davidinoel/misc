@@ -1,15 +1,15 @@
 ## Homebrew - First Published: 20170220
 
 #### INTRO:
-Based on how long it's taken for the bug report describing the issue of adding the "--require-sha" flag to ~/.&#91;shell&#93;&#95;profile's HOMEBREW_CASK_FLAGS and it breaking `brew cask search` to be filed, and its popularity among the tech community, it's surprising that this and other similar conversations didn't come up far sooner.
+Based on how long it's taken for the bug report describing the issue of adding the "--require-sha" flag to ~/.&#91;shell&#93;&#95;profile's HOMEBREW_CASK_FLAGS, it breaking of the `brew cask search` command to be filed, and its recognition among the tech community, it's surprising that this and other similar conversations didn't come up far sooner.
 
-- Roughly 20% of Homebrew Cask Formula's currently contain "sha256 :no_check", meaning that not only do they lack the basc layer of security most would expect from a package manager by not allowing Caskroom to verify their sha256 signatures, but that if end-users were to set the --require-sha flag, 20% of the software packages via Caskroom would be unavailable to them because the signatures were not provided by the maintainers in the Formula.
-\% cd /usr/local/Homebrew/Library/Taps/caskroom
-\% find . |grep "\.rb" | wc -l
-    3779
-\% grep -r "sha256 :no_check" | wc -l
-    761
-761/3779 ~= 20%
+- Roughly 20% of Homebrew Cask Formula's currently contain "sha256 :no_check", meaning that not only do they lack the basc layer of security most would expect from a package manager by not allowing Caskroom to verify their sha256 signatures, but that if end-users were to set the --require-sha flag, 20% of the software packages via Caskroom would be unavailable to them because the signatures were not provided by the maintainers in the Formula.  
+% cd /usr/local/Homebrew/Library/Taps/caskroom  
+% find . |grep "\.rb" | wc -l  
+    3779  
+% grep -r "sha256 :no_check" | wc -l  
+    761  
+761/3779 ~= 20%  
 
 - There's a valid conversation that needs to take place about the way hashes are obtained, and their reliability. If a download site is using HTTP, and an attacker is sitting a hop or two in front of the download site, it's trivial for both the download file and the hash itself to be compromised, with neither the package maintainer nor the average Homebrew user being any the wiser. In this MITM'd scenario, the maintainer would download the compromised package and corresponding hash, and then update the Formula with the corresponding sum and link, and push it live, allowing millions of Homebrew users to be successfuly MITM'd and compromised.
 
