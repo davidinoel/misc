@@ -10,13 +10,16 @@ modify, merge, publish, and distribute, subject to the following conditions:
 The entirety of the License and this permission notice shall be included in 
 all copies of the Software.
 
-The Software is neither used for commercial purposes, limited to the extent 
+The Software is not used for commercial purposes, limited to the extent 
 that it is used:
-1. for benefiting and funding the projects which the Software are titled after,
-1a. for benefiting and funding the projects which the Software are analogues of, 
-granted there exists in the Software specific mention of the project or projects 
-by the use of the language "[project]-like".
-1b. the development of the Software described, 
+1. for benefiting and funding the projects which the Software are titled after
+and that they are open source,
+1a. for benefiting and funding the projects which the Software are analogues of
+and that they are open source, granted there exists in the Software specific 
+mention or mentions of the project or projects by the use of the language 
+"[project]-like".
+1b. for the development of the Software described, to be distributed along with
+its source, for free, under an open source license.
 2. to fund David I. Noel (the "Author"), for continued work, research, 
 development, or for any other reason. 
 3. as otherwise granted by the Author upon request.
@@ -25,10 +28,12 @@ develop any of the projects I've described and have issues with the licensing,
 please contact me at my username at gmail.*
 
 If any paragraph, section, clause, or part of the License shall be held or 
-declared to be void, invalid, or illegal, for any reason, by any court of 
-competent jurisdiction, such provision shall be ineffective but shall not 
-in any way invalidate or affect any other clause, Paragraph, section or part 
-of this Agreement. 
+declared to be void, invalid, or illegal, for any reason, such provision 
+shall be either, in good faith (i) excluded from the License, 
+(ii) re-written by the License-holder so as to not be declared invalid 
+(iii) re-negotiated by the License-holder so as to not be declared invalid;
+and the balance of the License shall be interpreted as such, and the balance
+of the License shall be enforceable in accordance with its terms.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
