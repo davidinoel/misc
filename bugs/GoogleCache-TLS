@@ -1,0 +1,3 @@
+Hit the Google Cache for a non TLS-wrapped website, and google will 
+link you to the non TLS-wrapped version of google's cache. Currently:
+webcache.google.com/...
